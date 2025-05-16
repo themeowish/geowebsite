@@ -5970,10 +5970,6 @@ html.tablet .ui-to-top {
 	background: transparent;
 }
 
-.rd-navbar-static .rd-nav-item.focus > .rd-navbar-submenu-toggle, .rd-navbar-static .rd-nav-item.opened > .rd-navbar-submenu-toggle {
-	color: #516ca9;
-}
-
 .rd-navbar-static .rd-nav-item.active .rd-nav-link {
 	color: #516ca9;
 	background: transparent;
@@ -9962,19 +9958,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .lg-css3.lg-zoom-out-big .lg-item.lg-next-slide {
 	-webkit-transform: scale3d(0, 0, 0);
 	transform: scale3d(0, 0, 0);
-}
-
-.lg-css3.lg-zoom-out-big .lg-item.lg-current {
-	-webkit-transform: scale3d(1, 1, 1);
-	transform: scale3d(1, 1, 1);
-	opacity: 1;
-}
-
-.lg-css3.lg-zoom-out-big .lg-item.lg-prev-slide, .lg-css3.lg-zoom-out-big .lg-item.lg-next-slide, .lg-css3.lg-zoom-out-big .lg-item.lg-current {
-	-webkit-transition: -webkit-transform 1s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 1s ease 0s;
-	-moz-transition: -moz-transform 1s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 1s ease 0s;
-	-o-transition: -o-transform 1s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 1s ease 0s;
-	transition: transform 1s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 1s ease 0s;
 }
 
 .lg-css3.lg-zoom-out-in .lg-item {
