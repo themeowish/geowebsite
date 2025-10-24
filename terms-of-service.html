@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>Terms of Service | GeoFlux</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="GeoFlux Terms of Service - Learn about the terms and conditions for using our geospatial and AI services.">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+      .ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} 
+      html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}
+      
+      :root {
+        --primary-color: #0066ff;
+        --secondary-color: #00d4ff;
+        --accent-color: #ff6b35;
+        --dark-bg: #0a0a0a;
+        --card-bg: #1a1a1a;
+        --text-primary: #ffffff;
+        --text-secondary: #a0a0a0;
+        --gradient-primary: linear-gradient(135deg, #0066ff 0%, #00d4ff 100%);
+        --gradient-accent: linear-gradient(135deg, #ff6b35 0%, #ff8c42 100%);
+      }
+      
+      body {
+        font-family: 'Inter', sans-serif !important;
+        background: var(--dark-bg) !important;
+        color: var(--text-primary) !important;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+      }
+      
+      html {
+        background: var(--dark-bg) !important;
+      }
+      
+      .hero-section {
+        background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a0a0a 100%);
+        min-height: 40vh;
+        display: flex;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .hero-section::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: radial-gradient(circle at 30% 20%, rgba(0, 102, 255, 0.1) 0%, transparent 50%),
+                    radial-gradient(circle at 70% 80%, rgba(0, 212, 255, 0.1) 0%, transparent 50%);
+        pointer-events: none;
+      }
+      
+      .hero-content {
+        position: relative;
+        z-index: 2;
+      }
+      
+      .hero-title {
+        font-size: 3rem;
+        font-weight: 800;
+        line-height: 1.1;
+        margin-bottom: 1.5rem;
+        background: var(--gradient-primary);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      
+      .content-section {
+        padding: 4rem 0;
+      }
+      
+      .content-card {
+        background: var(--card-bg);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 16px;
+        padding: 3rem;
+        margin-bottom: 2rem;
+      }
+      
+      .content-card h2 {
+        color: #ffffff !important;
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+        background: var(--gradient-primary);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      
+      .content-card h3 {
+        color: #ffffff !important;
+        font-size: 1.4rem;
+        font-weight: 600;
+        margin: 2rem 0 1rem 0;
+      }
+      
+      .content-card h4 {
+        color: #ffffff !important;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin: 1.5rem 0 0.5rem 0;
+      }
+      
+      .content-card p {
+        color: #a0a0a0 !important;
+        margin-bottom: 1rem;
+      }
+      
+      .content-card ul {
+        color: #a0a0a0 !important;
+        margin-bottom: 1rem;
+        padding-left: 1.5rem;
+      }
+      
+      .content-card li {
+        color: #a0a0a0 !important;
+        margin-bottom: 0.5rem;
+      }
+      
+      .navbar-modern {
+        background: rgba(10, 10, 10, 0.95);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      
+      .navbar-brand {
+        font-size: 1.5rem;
+        font-weight: 800;
+        background: var(--gradient-primary);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: #0066ff !important;
+      }
+      
+      .nav-link {
+        color: #ffffff !important;
+        font-weight: 500;
+        transition: color 0.3s ease;
+      }
+      
+      .nav-link:hover {
+        color: #0066ff !important;
+      }
+      
+      .footer {
+        background: var(--dark-bg);
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 3rem 0 2rem;
+      }
+      
+      .footer h5, .footer h6 {
+        color: #ffffff !important;
+      }
+      
+      .footer a {
+        color: #a0a0a0 !important;
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+      
+      .footer a:hover {
+        color: #0066ff !important;
+      }
+      
+      .footer p {
+        color: #a0a0a0 !important;
+      }
+      
+      .page {
+        background: #0a0a0a !important;
+        min-height: 100vh;
+        color: #ffffff !important;
+      }
+      
+      .container {
+        background: transparent !important;
+        color: #ffffff !important;
+      }
+      
+      * {
+        color: inherit !important;
+      }
+      
+      .hero-section {
+        background: #0a0a0a !important;
+        color: #ffffff !important;
+      }
+      
+      .content-section {
+        background: #0a0a0a !important;
+        color: #ffffff !important;
+      }
+      
+      .navbar {
+        background: rgba(10, 10, 10, 0.95) !important;
+        color: #ffffff !important;
+      }
+      
+      .navbar-nav .nav-link {
+        color: #ffffff !important;
+      }
+      
+      .navbar-brand {
+        color: #0066ff !important;
+      }
+      
+      @media (max-width: 768px) {
+        .hero-title {
+          font-size: 2.5rem;
+        }
+        
+        .content-card {
+          padding: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    
+    <div class="page">
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-modern fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">GeoFlux</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#achievements">2025 Achievements</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#solutions">Solutions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="career.html">Careers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="container">
+          <div class="hero-content text-center">
+            <h1 class="hero-title">Terms of Service</h1>
+            <p style="color: var(--text-secondary); font-size: 1.2rem;">Last updated: January 1, 2025</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Content -->
+      <section class="content-section">
+        <div class="container">
+          <div class="content-card">
+            <h2>Agreement to Terms</h2>
+            <p>These Terms of Service ("Terms") govern your use of GeoFlux's website, services, and products provided by Celerity Labs Inc. ("Company," "we," "our," or "us"). By accessing or using our services, you agree to be bound by these Terms.</p>
+            <p>If you do not agree to these Terms, please do not use our services.</p>
+
+            <h3>Description of Services</h3>
+            <p>GeoFlux provides AI-powered geospatial solutions and location intelligence services, including:</p>
+            <ul>
+              <li>Location optimization and site selection analysis</li>
+              <li>Geospatial data processing and visualization</li>
+              <li>AI-driven business intelligence solutions</li>
+              <li>Custom GIS application development</li>
+              <li>Consulting and advisory services</li>
+            </ul>
+
+            <h3>User Accounts</h3>
+            <p>To access certain features of our services, you may be required to create an account. You are responsible for:</p>
+            <ul>
+              <li>Maintaining the confidentiality of your account credentials</li>
+              <li>All activities that occur under your account</li>
+              <li>Providing accurate and complete information</li>
+              <li>Notifying us immediately of any unauthorized use</li>
+            </ul>
+
+            <h3>Acceptable Use</h3>
+            <p>You agree to use our services only for lawful purposes and in accordance with these Terms. You may not:</p>
+            <ul>
+              <li>Use our services for any illegal or unauthorized purpose</li>
+              <li>Attempt to gain unauthorized access to our systems</li>
+              <li>Interfere with or disrupt our services</li>
+              <li>Reverse engineer, decompile, or disassemble our software</li>
+              <li>Use our services to transmit harmful or malicious code</li>
+              <li>Violate any applicable laws or regulations</li>
+            </ul>
+
+            <h3>Intellectual Property Rights</h3>
+            <p>All content, software, and materials provided through our services are owned by Celerity Labs Inc. or our licensors and are protected by intellectual property laws. You may not:</p>
+            <ul>
+              <li>Copy, modify, or distribute our proprietary content</li>
+              <li>Use our trademarks or logos without permission</li>
+              <li>Create derivative works based on our services</li>
+              <li>Remove or alter any copyright notices</li>
+            </ul>
+
+            <h3>Data and Privacy</h3>
+            <p>Your privacy is important to us. Our collection and use of personal information is governed by our Privacy Policy, which is incorporated into these Terms by reference.</p>
+
+            <h3>Service Availability</h3>
+            <p>We strive to provide reliable services but cannot guarantee uninterrupted access. We reserve the right to:</p>
+            <ul>
+              <li>Modify or discontinue services at any time</li>
+              <li>Perform maintenance and updates</li>
+              <li>Suspend services for security or technical reasons</li>
+            </ul>
+
+            <h3>Payment Terms</h3>
+            <p>For paid services, you agree to:</p>
+            <ul>
+              <li>Pay all fees in accordance with the pricing terms</li>
+              <li>Provide accurate billing information</li>
+              <li>Pay applicable taxes</li>
+              <li>Notify us of any billing disputes within 30 days</li>
+            </ul>
+
+            <h3>Limitation of Liability</h3>
+            <p>To the maximum extent permitted by law, Celerity Labs Inc. shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, or business opportunities.</p>
+
+            <h3>Indemnification</h3>
+            <p>You agree to indemnify and hold harmless Celerity Labs Inc. from any claims, damages, or expenses arising from your use of our services or violation of these Terms.</p>
+
+            <h3>Termination</h3>
+            <p>We may terminate or suspend your access to our services at any time, with or without cause, including for violation of these Terms. Upon termination:</p>
+            <ul>
+              <li>Your right to use our services ceases immediately</li>
+              <li>We may delete your account and data</li>
+              <li>Certain provisions of these Terms will survive termination</li>
+            </ul>
+
+            <h3>Governing Law</h3>
+            <p>These Terms are governed by and construed in accordance with the laws of the State of California, without regard to conflict of law principles.</p>
+
+            <h3>Dispute Resolution</h3>
+            <p>Any disputes arising from these Terms or your use of our services will be resolved through binding arbitration in accordance with the rules of the American Arbitration Association.</p>
+
+            <h3>Changes to Terms</h3>
+            <p>We may update these Terms from time to time. We will notify you of any material changes by posting the new Terms on our website. Your continued use of our services after such changes constitutes acceptance of the new Terms.</p>
+
+            <h3>Severability</h3>
+            <p>If any provision of these Terms is found to be unenforceable or invalid, the remaining provisions will remain in full force and effect.</p>
+
+            <h3>Contact Information</h3>
+            <p>If you have any questions about these Terms, please contact us at:</p>
+            <ul>
+              <li>Email: legal@geofluxsolution.com</li>
+              <li>Phone: +1 (626) 667 4295</li>
+              <li>Address: 87 N Raymond Ave #210, Pasadena, CA 91103</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 mb-4">
+              <h5>GeoFlux</h5>
+              <p style="color: var(--text-secondary);">
+                A leading AI-driven geospatial solutions provider, dedicated to offering intelligent location optimization services for small and medium businesses.
+              </p>
+            </div>
+            
+            <div class="col-lg-2 col-md-6 mb-4">
+              <h6>Company</h6>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="index.html#solutions">About Us</a></li>
+                <li class="mb-2"><a href="career.html">Careers</a></li>
+                <li class="mb-2"><a href="privacy-policy.html">Privacy Policy</a></li>
+                <li class="mb-2"><a href="terms-of-service.html">Terms of Service</a></li>
+              </ul>
+            </div>
+            
+            <div class="col-lg-4 mb-4">
+              <h6>Contact Us</h6>
+              <p style="color: var(--text-secondary); margin-bottom: 0.5rem;">87 N Raymond Ave #210, Pasadena, CA 91103</p>
+              <p style="color: var(--text-secondary); margin-bottom: 0.5rem;">+1 (626) 667 4295</p>
+              <p style="color: var(--text-secondary);">info@geofluxsolution.com</p>
+            </div>
+          </div>
+          
+          <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 2rem 0 1rem;">
+          
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <p style="color: var(--text-secondary); margin: 0;">
+                &copy; <span class="copyright-year"></span> Celerity Labs Inc. All Rights Reserved.
+              </p>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <a href="privacy-policy.html" style="margin-right: 1rem;">Privacy Policy</a>
+              <a href="terms-of-service.html">Terms of Service</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
